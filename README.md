@@ -13,6 +13,6 @@
 ## New Projects
 
 1. Run in terminal "dotnet new mgdesktopgl -o FOLDERNAME --force" if you havent created your project already.
-2. Open it in VSCode and in the .csproj change the package reference to `3.8.1.303`, and target framework at the top to net6.0. Then go to .config then into `dotnet-tools.json`. Change all the versions to `3.8.1.303`. In the VSCode terminal run `dotnet tool restore`.
+2. Open it in VSCode and in the .csproj change the package reference to `3.8.1.303`, and target framework at the top to net6.0. Then go to .config then into `dotnet-tools.json`. Change all the versions to `3.8.1.303`. In the VSCode terminal run `dotnet tool restore`. Make sure in the terminal output it says stuff about loading version `3.8.1.303`.
 3. Make sure you build it once before opening content manager. It should work now.
 
